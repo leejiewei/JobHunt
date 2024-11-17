@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#BBDEFB"
+    android:gravity="center">
+
+
+<TextView
+android:id="@+id/titleRegister"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Register Page"
+android:textSize="32sp"
+android:textColor="#0D47A1"
+    android:textStyle="bold"
+    android:layout_marginBottom="40dp"
+    android:gravity="center"/>
+
+
+<EditText
+android:id="@+id/editTextUserRegister"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Username"
+android:textColor="#333333"
+    android:textSize="16sp"
+android:background="@drawable/edittext"
+android:paddingStart="16dp"
+android:paddingEnd="16dp"
+android:layout_marginBottom="16dp"
+android:importantForAccessibility="yes"
+android:contentDescription="Username input field"/>
+
+
+<EditText
+android:id="@+id/editTextPassRegister"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:textColor="#333333"
+    android:inputType="textPassword"
+android:textSize="16sp"
+android:background="@drawable/edittext"
+android:paddingStart="16dp"
+android:paddingEnd="16dp"
+android:layout_marginBottom="24dp"
+android:importantForAccessibility="yes"
+android:contentDescription="Password input field"/>
+
+
+<Button
+android:id="@+id/buttonRegister"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Register"
+android:textColor="#FFFFFF"
+android:textSize="16sp"
+android:layout_marginBottom="16dp"
+android:background="@drawable/button"
+android:padding="14dp"
+android:importantForAccessibility="yes"
+android:contentDescription="Register button"/>
+    </LinearLayout>

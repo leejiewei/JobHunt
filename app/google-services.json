@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "463671012162",
+    "firebase_url": "https://jobportalhunt-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "jobportalhunt",
+    "storage_bucket": "jobportalhunt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463671012162:android:495b59dcc197d9eb9df6db",
+        "android_client_info": {
+          "package_name": "student.inti.jobhunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_v-pVNUaFekEsw7ct8VMYwc49z2umXPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463671012162:android:7f31be6252c4d94d9df6db",
+        "android_client_info": {
+          "package_name": "student.inti.jobhunt2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_v-pVNUaFekEsw7ct8VMYwc49z2umXPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+
+<TextView
+android:id="@+id/ADD"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add Job Activity"
+android:textSize="28sp"
+android:textColor="#212121"
+    android:textStyle="bold"
+    android:layout_marginBottom="24dp"
+    android:gravity="center"/>
+
+
+<EditText
+android:id="@+id/editTextJobTitle"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Job Title"
+android:textColor="#333333"
+    android:textSize="16sp"
+android:background="@drawable/edittext"
+android:paddingStart="16dp"
+android:paddingEnd="16dp"
+android:layout_marginBottom="16dp"
+android:importantForAccessibility="yes"
+android:contentDescription="Job Title input field"/>
+
+
+<EditText
+android:id="@+id/editTextJobDescription"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Job Description"
+android:inputType="textMultiLine"
+android:textColor="#333333"
+    android:textSize="16sp"
+android:background="@drawable/edittext"
+android:paddingStart="16dp"
+android:paddingEnd="16dp"
+android:layout_marginBottom="24dp"
+android:lines="4"
+android:maxLines="5"
+android:scrollbars="vertical"
+android:importantForAccessibility="yes"
+android:contentDescription="Job Description input field"/>
+
+
+<Button
+android:id="@+id/buttonAddJob"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Add Job"
+android:textColor="#FFFFFF"
+android:textSize="16sp"
+android:layout_marginTop="16dp"
+android:background="@drawable/button"
+android:padding="14dp"
+android:importantForAccessibility="yes"
+android:contentDescription="Add Job Button"/>
+
+    </LinearLayout>
